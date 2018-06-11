@@ -1,0 +1,42 @@
+text {
+  font-size: 10px;
+  text-anchor: middle;
+  fill: #4f442b;
+}
+
+circle {
+  fill: #75739F;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+circle.active {
+  fill: #FE9922;
+}
+
+circle.inactive {
+  fill: #C4B9AC;
+}
+
+#modal {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  top:20px;
+  z-index:1;
+  background: white;
+  border: 1px black solid; box-shadow: 10px 10px 5px #888888;
+}
+
+tr {
+  border: 1px gray solid;
+}
+
+td {
+  font-size: 10px;
+}
+
+td.data {
+  font-weight: 900;
+}
+
